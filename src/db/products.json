@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Ryzen 9 7940HS RTX 4090",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo nec commodo fermentum. Integer faucibus porta neque, nec ultrices felis consequat sit amet.",
+    "price": 3299,
+    "rating": 4.69,
+    "image": "/products/asus-rog-zephyrus.jpg",
+    "count": 1
+  },
+  {
+    "id": 2,
+    "title": "Nvidia GeForce RTX 4090",
+    "description": "Vestibulum pulvinar nec justo eget elementum. Quisque laoreet sit amet dolor id rutrum. Aliquam erat volutpat.",
+    "price": 1599,
+    "rating": 4.69,
+    "image": "/products/nvidia-geforce.jpg",
+    "count": 1
+  },
+  {
+    "id": 3,
+    "title": "Sony PlayStation 5",
+    "description": "Aenean commodo consectetur ante, at aliquet ex porta id. Sed ut semper purus, eget semper mi. Integer dapibus sem eu augue convallis, ut accumsan elit vehicula.",
+    "price": 427,
+    "rating": 4.69,
+    "image": "/products/ps5.jpg",
+    "count": 1
+  },
+  {
+    "id": 4,
+    "title": "Samsung Galaxy S23 Ultra",
+    "description": "Mauris lacinia risus et magna tempor, sit amet egestas purus dignissim. Curabitur dictum ante vitae nisi consequat, id eleifend dolor placerat. Nam vitae ultrices sem.",
+    "price": 598,
+    "rating": 4.69,
+    "image": "/products/samsung-galaxy-s23-ultra-front-back-phantom-black.jpg",
+    "count": 1
+  },
+  {
+    "id": 5,
+    "title": "Apple iPad Pro 13",
+    "description": " Proin laoreet mi in turpis imperdiet lobortis. Nunc quis turpis quis sapien tincidunt viverra. Sed in varius ligula.",
+    "price": 998,
+    "rating": 4.69,
+    "image": "/products/apple-ipad-pro.jpg",
+    "count": 1
+  },
+  {
+    "id": 6,
+    "title": "Samsung Galaxy Watch 5 ",
+    "description": "Fusce id ultricies ante, nec hendrerit mi. Vivamus non ipsum nulla. Integer nec vestibulum libero.",
+    "price": 449,
+    "rating": 4.69,
+    "image": "/products/samsung-galaxy-watch5.jpg",
+    "count": 1
+  },
+  {
+    "id": 7,
+    "title": "Xiaomi 12T",
+    "description": "Nunc nec tellus sed nibh lacinia vehicula. Proin interdum risus imperdiet metus convallis iaculis. Aenean nec massa auctor, ullamcorper massa vel, efficitur metus.",
+    "price": 860,
+    "rating": 4.69,
+    "image": "/products/xiaomi-12t-back-panel-right-edge-black.jpg",
+    "count": 1
+  },
+  {
+    "id": 8,
+    "title": "Apple iPhone 15 Pro Max",
+    "description": "Quisque molestie purus sit amet ex aliquam, et viverra turpis fermentum. Duis a sollicitudin mauris. Phasellus accumsan sem sed varius condimentum.",
+    "price": 1200,
+    "rating": 4.69,
+    "image": "/products/apple-iphone-15-pro-max.jpg",
+    "count": 1
+  }
+]

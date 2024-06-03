@@ -1,0 +1,151 @@
+@use "../../styles//variables" as var;
+
+@keyframes btnColor {
+  from {
+    color: var.$white;
+  }
+  to {
+    color: var.$black;
+  }
+}
+@keyframes wrapperSize {
+  from {
+    width: 100%;
+    height: 20rem;
+  }
+  to {
+    width: 110%;
+    height: 23rem;
+  }
+}
+.pCard {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.pCard__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 17rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: var.$black;
+}
+.pCard__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pCard__div img {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.desc__div {
+  margin: 0.5rem 1rem;
+}
+.boxTitle {
+  height: 5vw;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+  font-size: 1.3rem;
+  margin: 1vw 0;
+}
+.desc__rating {
+  height: 1vw;
+  display: flex;
+  align-items: center;
+  margin: 1vw 0;
+}
+.desc__title {
+  font-size: 0.9rem;
+  height: 5vw;
+  overflow: hidden;
+  margin: 1vw 0;
+}
+.price__div {
+  display: flex;
+  align-items: center;
+  height: 2vw;
+  justify-content: space-between;
+}
+.price {
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-align: right;
+}
+.pCard__btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 7rem;
+  height: 2rem;
+}
+.pCard__btn button {
+  width: 7rem;
+  padding: 0.8rem;
+  height: 2.2rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var.$navy-blue;
+  color: var.$white;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.pCard__btn button:hover {
+  animation: btnColor 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@media screen and (max-width: 900px) {
+  .pCard__btn {
+    width: 10vw;
+    height: 10vw;
+  }
+  .pCardpCard__link {
+    height: 15vw;
+    width: 20vw;
+  }
+  .pCard {
+    margin: 0;
+    width: 30vw;
+    height: 55vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pCard__div {
+    width: 25vw;
+    height: 35vw;
+    margin-bottom: 2vw;
+  }
+  .pCard__btn button {
+    font-size: 1.2vw;
+    width: 10vw;
+    height: 3.5vw;
+  }
+  .desc__div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+  }
+  .desc__title {
+    height: 7vw;
+    margin-bottom: 2vw;
+  }
+}

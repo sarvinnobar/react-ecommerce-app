@@ -1,0 +1,111 @@
+@use "../../styles/variables" as var;
+
+.body {
+  background-color: #aaa;
+}
+.det__imgDiv div,
+.det__descDiv div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.det__div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 6vw 0 2vw;
+  background-color: white;
+  height: 80vh;
+  border-radius: 1rem;
+}
+
+.det__descDiv {
+  color: var.$dark-gray;
+  border: 0.3vw solid var.$dark-gray;
+  width: 75%;
+  height: 75vh;
+  justify-self: center;
+  align-self: center;
+  border-radius: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+.det__descDiv div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  margin: 1vw 3vw;
+}
+
+.det__descDiv div p {
+  padding: 0 1.5rem;
+  font-size: 1.2vw;
+  font-weight: 500;
+  color: var.$dark-gray;
+}
+.det__imgDiv div img {
+  width: 90%;
+  height: 60vh;
+  border-radius: 1.5rem;
+}
+.det__btnDiv {
+  display: inline-block;
+  width: 7rem;
+  height: 2rem;
+  background-color: var.$navy-blue;
+
+  border-radius: 0.4rem;
+  margin-right: 0.3rem;
+}
+
+.det__btnDiv button {
+  width: 7rem;
+  padding: 0.8rem;
+  height: 1.2rem;
+  color: var.$dark;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  background: transparent;
+  border: none;
+  padding-top: 1.05rem;
+  color: white;
+}
+
+.det__priceDiv {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+.det__priceDiv div {
+  display: inline-block;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .det__div {
+    grid-template-columns: 1fr;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .det__imgDiv div img {
+    width: 14rem;
+    height: 30vh;
+  }
+  .det__imgDiv {
+    margin-top: 1.5rem;
+  }
+  .det__descDiv {
+    height: 47vh;
+    margin-bottom: 3rem;
+  }
+}

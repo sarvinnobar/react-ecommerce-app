@@ -1,0 +1,32 @@
+@use "../../styles//variables" as var;
+
+.fo__div {
+  background-color: var.$navy-blue;
+  color: var.$white;
+  padding: 0.5vw 0 2vw;
+}
+.fo__container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.col__div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6vw;
+}
+.col__socials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.col__socials div {
+  width: 4vw;
+  height: 4vw;
+}
+
+@media screen and (max-height: 700px) {
+  .fo__div {
+    width: 100vw;
+  }
+}

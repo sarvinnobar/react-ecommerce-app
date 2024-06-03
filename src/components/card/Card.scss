@@ -1,0 +1,44 @@
+@use "../../styles//variables" as var;
+.card__div {
+  width: 12vw;
+  height: 12vw;
+}
+.blur-box__div {
+  aspect-ratio: 1 / 1;
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  border-radius: 1.2vw;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.09);
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blur-box__div svg {
+  width: 70%;
+  height: 70%;
+}
+.blur-title {
+  color: var.$light-gray;
+  margin-top: 1.7vw;
+  font-size: 1.5vw;
+  text-wrap: nowrap;
+  font-weight: 400;
+  text-align: center;
+}
+.bg-circle__div {
+  width: inherit;
+  height: inherit;
+
+  clip-path: circle(50% at 50% 50%);
+
+  position: absolute;
+
+  background: linear-gradient(90deg, #acdcff 0%, #b8b8ff 100%);
+}

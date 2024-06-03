@@ -1,0 +1,65 @@
+@use "../../styles//variables" as var;
+.header__div {
+  display: flex;
+}
+.nav__parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nav__div {
+  width: 100vw;
+  height: 4vw;
+  border-bottom-right-radius: 0.5vw;
+  border-bottom-left-radius: 0.5vw;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: fixed;
+  z-index: 1;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 79vw;
+  height: 4vw;
+
+  z-index: 1;
+}
+
+nav h1 {
+  color: var.$navy-blue;
+  font-size: 2.3vw;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2vw;
+  list-style: none;
+  font-size: 1.3vw;
+}
+
+.nav__link,
+.nav__link:visited,
+.nav__link:link {
+  text-decoration: none;
+  color: var.$black;
+}
+.nav__icon {
+  display: none;
+}
+@media screen and (max-width: 400px) {
+  ul {
+    flex-direction: column;
+    position: absolute;
+    top: 2vw;
+    right: 0;
+    align-items: flex-end;
+  }
+  .nav__icon {
+    display: flex;
+    position: relative;
+  }
+}

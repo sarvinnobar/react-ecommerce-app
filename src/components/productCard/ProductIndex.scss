@@ -1,0 +1,16 @@
+.products__div h1 {
+  margin-bottom: 3vw;
+}
+.pContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.8vw;
+  grid-row-gap: 5.5vw;
+  margin: 1rem 0 3rem;
+}
+@media screen and (max-width: 900px) {
+  .pContainer {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3rem;
+  }
+}
