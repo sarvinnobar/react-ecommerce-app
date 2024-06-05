@@ -1,5 +1,4 @@
-## Demo:
-https://arax-react.netlify.app/
+## Demo: https://arax-react.netlify.app/
 
 # React + Vite
 
